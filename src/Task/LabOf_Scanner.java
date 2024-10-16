@@ -7,5 +7,6 @@ public class LabOf_Scanner {
         Scanner scanner = new Scanner(System.in);
          int age = scanner.nextInt();
         System.out.println(age>34?"allowed to go goa" : "allowed not to goa");
+        System.out.printf("%d" ,age);
     }
 }
