@@ -22,6 +22,10 @@ public class GradeProg {
     {
         System.out.println("GRADE D");
     }
+   else if(score<=0 || score >100)
+   {
+       System.out.println("Score should be less than 100 and more or equal to 0");
+   }
    else {
         System.out.println("GRADE F");
     }
