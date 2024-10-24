@@ -6,7 +6,7 @@ public class FunctionP {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enterthev value of A and B:->");
+        System.out.println("Enter the  value of A and B:->");
         int a = sc.nextInt();
         int b = sc.nextInt();
         int sum1 = sum(a,b);
