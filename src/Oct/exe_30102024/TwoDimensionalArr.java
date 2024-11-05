@@ -4,7 +4,9 @@ public class TwoDimensionalArr {
     public static void main(String args[]) {
         int[] arr = {12, 12, 13, 14};
 
-     /*   for (int i : arr) {
+     /*
+      for (int i : arr)
+      {
             System.out.println(i);
         }
 */
