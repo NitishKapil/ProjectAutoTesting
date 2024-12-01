@@ -18,11 +18,11 @@ public class BaseTest {
 
         }
     }
-  class MainC extends BaseTest
+  class MainC
   {
       public static void main(String args[])
       {
-    TestCase t1 = new TestCase();
+     TestCase  tc =new TestCase();
 
       }
   }

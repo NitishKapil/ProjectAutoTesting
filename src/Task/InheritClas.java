@@ -1,24 +1,32 @@
 package Task;
 
 public class InheritClas {
+    int a = 90;
 
-    void Sound()
-    {
+    void Sound() {
         System.out.println("Parent class");
     }
+
 }
-class Child  extends InheritClas
-{
-    @Override
-    void Sound()
+
+class Child {
+    InheritClas c;
+
+    Child(InheritClas c) {
+        this.c = c;
+    }
+    void display()
     {
-        System.out.println("child clas");
+        c.Sound();
+        int b=c.a;
     }
 }
-class Bark
-{
+
+class Bark {
     public static void main(String[] args) {
-        Child c = new Child();
-        c.Sound();
+        InheritClas c = new InheritClas();
+        Child ch = new Child(c);
+        ch.display();
+
     }
 }
